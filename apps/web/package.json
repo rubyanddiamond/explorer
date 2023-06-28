@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@code-hike/lighter": "^0.7.1",
+    "@code-hike/lighter": "^0.7.0",
     "@modularcloud/design-system": "*",
     "@modularcloud/ecs": "*",
     "@modularcloud/sdk": "*",
