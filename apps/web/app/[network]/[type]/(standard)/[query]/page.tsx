@@ -10,8 +10,6 @@ type Props = {
   params: FetchLoadArgs;
 };
 
-export const runtime = "edge";
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const whitelabel = getWhitelabel();
 
@@ -49,3 +47,5 @@ export default async function EntityPage({ params }: Props) {
     </>
   );
 }
+
+export const runtime = "edge";
