@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@code-hike/lighter": "^0.7.1",
     "@modularcloud/design-system": "*",
     "@modularcloud/ecs": "*",
     "@modularcloud/sdk": "*",
@@ -23,6 +24,7 @@
     "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
     "decimal.js": "^10.4.3",
+    "https": "^1.0.0",
     "next": "^13.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
