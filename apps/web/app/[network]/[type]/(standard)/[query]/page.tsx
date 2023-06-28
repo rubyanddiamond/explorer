@@ -40,7 +40,6 @@ export default async function EntityPage({ params }: Props) {
 
   return (
     <>
-      {/* @ts-expect-error Async Server Component */}
       <Entity resourcePath={params} />
       {/* @ts-expect-error Async Server Component */}
       <Tabs params={params} />
